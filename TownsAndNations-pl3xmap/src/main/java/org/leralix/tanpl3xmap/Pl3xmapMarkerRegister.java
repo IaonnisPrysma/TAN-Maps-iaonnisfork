@@ -305,8 +305,8 @@ public class Pl3xmapMarkerRegister extends CommonMarkerRegister {
                 fortLayerMap,
                 capitalPosition.getWorld().getName(),
                 "capital_" + townName,
-                capitalPosition.getX(),
-                capitalPosition.getZ(),
+                capitalPosition.getX()*16+8,
+                capitalPosition.getZ()*16+8,
                 IconType.CAPITAL,
                 townName
         );
